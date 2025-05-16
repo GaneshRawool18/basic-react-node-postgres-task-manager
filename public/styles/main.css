@@ -1,0 +1,111 @@
+html {
+  background: linear-gradient(135deg, #a683e3, #e4e9fd);
+  min-height: 100vh;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+}
+
+.box {
+  background: #fff;
+  max-width: 450px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+#heading {
+  background-color: #6c5ce7;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  padding: 15px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+input[type="checkbox"] {
+  margin: 0 10px;
+  transform: scale(1.2);
+}
+
+p {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #2d3436;
+  margin: 0;
+}
+
+form.edit {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 8px;
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid #a683e3;
+  outline: none;
+}
+
+button.add {
+  background-color: #6c5ce7;
+  color: white;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+button.edit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.add-form input[type="text"] {
+  width: 70%;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #6c5ce7;
+  color: white;
+  font-size: 0.9rem;
+}
